@@ -1,0 +1,44 @@
+---
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Adoptame">
+  <!-- Secondary navigation bar -->
+  <div class="bg-sky-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-10">
+        <div class="flex space-x-4">
+          <!-- Secondary nav items -->
+          <a
+            href="#"
+            class="text-gray-800 hover:bg-brand-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >Tamaño +</a
+          >
+          <!-- More secondary nav items -->
+        </div>
+        <div class="flex">
+          <a
+            href="#"
+            class="text-gray-800 hover:bg-brand-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >Borrar filtros</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="container mx-auto p-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
+  </div>
+</Layout>
